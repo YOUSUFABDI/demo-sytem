@@ -98,6 +98,7 @@ a {
   position: absolute;
   right: 10px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .close__navbar__icon {

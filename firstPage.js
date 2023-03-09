@@ -7,11 +7,13 @@ const closeMenuFirstPageIcon = document.querySelector(
 const menuFirstPage = document.querySelector("[data-menu-first-page]");
 const overlayFirstPage = document.querySelector("[data-overlay-first-page]");
 const dataTable = document.querySelector("[data-table-sec]");
+const header = document.querySelector(".header");
 
 function openFirstPageNav() {
   menuFirstPage.classList.add("open-menu");
   overlayFirstPage.classList.add("open-overlay");
   dataTable.style.display = "none";
+  header.style.zIndex = "0";
 }
 
 function closeFirstPageNav() {
